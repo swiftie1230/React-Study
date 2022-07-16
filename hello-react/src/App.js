@@ -1,6 +1,16 @@
 // import logo from './logo.svg';
-import './App.css';
-import { Fragment } from 'react';
+// import './App.css';
+// import { Fragment } from 'react';
+
+// import { Component } from 'react';
+
+// import MyComponent from './MyComponent';
+
+// import Counter from './Counter';
+
+import Say from "./Say";
+
+
 /*
 function App() {
   return (
@@ -24,19 +34,9 @@ function App() {
 }
 */
 
+/*
 function App(){
   const name = 'REACT';
-  /* 
-  // style을 외부에서 선언 후 사용하는 경우!
-  const style = {
-    // background-color는 backgroundColor와 같이 -가 사라지고 카멜 표기법으로 작성한다.
-    backgroundColor: 'white',
-    color : 'aqua',
-    fontSize : '48px',
-    fontWeight : 'bold',
-    padding : 16 // 단위를 생략하면 px로 지정된다.
-  };
-  */
   return (
     <Fragment>
       {name === 'REACT' ? (
@@ -47,5 +47,29 @@ function App(){
     </Fragment>
   )
 }
+*/
+
+/*
+// 클래스형 컴포넌트를 생성할 경우 
+// 클래스형 컴포넌트에서는 render 함수가 꼭 있어야 하고, 그 안에서 보어주어야 할 JSX를 반환해야 한다.
+class App extends Component {
+  render() {
+    const name = 'REACT';
+    return <div className="react">{name}</div>
+  }
+}
+*/
+
+const App = () => {
+  // return <MyComponent name ="React" />;
+  // return <MyComponent />;
+  // return <MyComponent name = "REACT" favoriteNumber={13}>REACT</MyComponent>;
+
+  // return <Counter />;
+  
+  return <Say />;
+};
+
+
 
 export default App;
