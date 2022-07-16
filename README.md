@@ -21,5 +21,5 @@
     - 함수형 컴포넌트에서의 props ✔️
     - 클래스형 컴포넌트에서의 props ✔️
   - state ✔️
-    - 클래스형 컴포넌트의 state : **<u>this.setState</u>** 사용 ✔️
-    - 함수형 컴포넌트의 state : **<u>useState에서 선언한 세터 함수</u>** 사용 ✔️
+    - 클래스형 컴포넌트의 state : **_`this.setState`_** 사용 ✔️
+    - 함수형 컴포넌트의 state : **_`useState`에서 선언한 `세터 함수(Setter function)`_** 사용 ✔️
