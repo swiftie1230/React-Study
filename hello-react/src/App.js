@@ -8,7 +8,10 @@
 
 // import Counter from './Counter';
 
-import Say from "./Say";
+// import Say from "./Say";
+
+// import EventPractice_ClassComponent from "./EventPractice_ClassComponent";
+import EventPractice_FunctionComponent from "./EventPractice_FunctionComponent";
 
 
 /*
@@ -67,7 +70,10 @@ const App = () => {
 
   // return <Counter />;
   
-  return <Say />;
+  // return <Say />;
+
+  // eslint-disable-next-line react/jsx-pascal-case
+  return <EventPractice_FunctionComponent />;
 };
 
 
