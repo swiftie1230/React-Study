@@ -65,4 +65,4 @@
 
   - 컴포넌트에 ref 달기 ✔️
 
-    ☝🏻 **새롭게 알게 된 내용** : react에서의 `style` 중 `overflow` & `relative`
+    ☝🏻 **새롭게 알게 된 내용** : react에서의 `style` 중 `overflow` & `position`
