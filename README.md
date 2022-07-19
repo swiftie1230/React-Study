@@ -82,7 +82,9 @@
       - 데이터 추가 기능 구현하기 : 불변성 유지를 위해 concat 함수 사용 ✔️
       - 데이터 삭제 기능 구현하기 : 불변성 유지를 위해 filter 함수 사용 ✔️
 
-      🍧 **중요 포인트** : 상태 안에서 배열을 변형할 때는 배열에 직접 접근하여 수정하는 것이 아니라, **`concat`, `filter` 등의 배열 내장 함수를 이용하여 새로운 배열을 만든 후 이를 새로운 상태로 설정**해 주어야 한다!
+      ☝🏻 **새롭게 알게 된 내용** : `ul & li 태그`, `conct` 함수, `filter` 함수
+
+      🍧 **중요 포인트** : 상태 안에서 배열을 변형할 때는 배열에 직접 접근하여 수정하는 것이 아니라, **`concat`, `filter` 등의 배열 내장 함수를 이용하여 새로운 배열을 만든 후 이를 새로운 상태로 설정**해 주어야 한다! 즉, **기존 상태를 그대로 두면서 새로운 값을 상태로 설정**해야 한다.
 
 - [Chapter 7]
 
@@ -93,3 +95,29 @@
     - 언마운트 ✔️
 
   - 라이프 사이클 메서드 구체적으로 살펴보기 ✔️
+
+    ![image](https://user-images.githubusercontent.com/63195670/179726496-0ea069bb-7b68-4713-9c1f-4921fe2d1986.png)
+
+    - 마운트 ✔️
+
+      - constructor ✔️
+      - getDerivedStateFromProps ✔️
+      - render ✔️
+      - componentDidMount ✔️
+
+    - 업데이트 ✔️
+
+      - getDerivedStateFromProps ✔️
+      - shouldComponentUpdate ✔️
+      - render ✔️
+      - getSnapshotBeforeUpdate ✔️
+      - componentDidUpdate ✔️
+
+    - 언마운트 ✔️
+
+      - componentWillUnmount ✔️
+
+    - 에러 잡아내기 ✔️
+      - componentDidCatch ✔️
+
+  ☝🏻 **새롭게 알게 된 내용** : 랜덤 색상 생성하기
