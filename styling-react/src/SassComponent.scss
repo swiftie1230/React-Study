@@ -1,4 +1,4 @@
-@import './styles/utils';
+// @import 'utils.scss';
 
 /*
 // 변수 사용하기
@@ -20,6 +20,12 @@ $violet: #7950f2;
 
 .SassComponent {
     display: flex;
+    // SassComponent의 배경색을 open-colors 팔레트 라이브러리에서 불러온 후 설정 
+    background: $oc-gray-2;
+    @include media('<768px') {
+        // 화면 가로 크기가 768px 미만이 되면 배경색을 어둡게 바꿔준다.
+        background: $oc-gray-9;
+    }
     .box {  // 일반 CSS에서는 .SassComponent .box와 마찬가지
         background: red;
         cursor: pointer;
