@@ -166,6 +166,61 @@
       - https://nikgraf.github.io/react-hooks/
       - https://github.com/rehooks/awesome-react-hooks
 
----
+  🍧 **중요 포인트** : **함수 컴포넌트와 HOOKS를 사용할 것을 권장**하고 있다. **함수 컴포넌트의 사용을 첫 번째 옵션**으로 두고, 꼭 필요한 상황에서만 클래스형 컴포넌트를 구현해라!
 
-🍧 **중요 포인트** : **함수 컴포넌트와 HOOKS를 사용할 것을 권장**하고 있다. **함수 컴포넌트의 사용을 첫 번째 옵션**으로 두고, 꼭 필요한 상황에서만 클래스형 컴포넌트를 구현해라!
+#### 📌 SEVENTH DAY
+
+- [Chapter 9]
+
+  - **컴포넌트 스타일링** ✔️
+
+    - 일반 CSS ✔️
+
+    - Sass ✔️
+
+    - CSS Module ✔️
+
+    - **styled-components** ✔️
+
+#### 📌 EIGETH DAY
+
+- [Chapter 10_1]
+
+  - UI 구성
+
+    - `TodoTemplate` ✔️
+
+      - 화면 가운데 정렬
+      - 앱 타이틀 (Schedule Management) 보여줌
+      - children으로 내부 JSX를 props로 받아 와서 렌더링
+
+    - `TodoInsert` ✔️
+
+      - 새로운 항목을 입력하고 추가할 수 있는 컴포넌트
+      - state를 통해 인풋의 상태를 관리한다.
+
+#### 📌 NINTH DAY
+
+- [Chapter 10_2]
+
+  - UI 구성
+
+    - `TodoListItem` ✔️
+
+      - 각 할 일 항목에 대한 정보를 보여 주는 컴포넌트
+      - todo 객체를 props로 받아와ㅓ서 상태에 따라 다른 스타일의 UI를 보여준다.
+
+    - `TodoList` ✔️
+
+      - todos 배열을 props로 받아온 후 이를 map을 사용해서 여러 개의 TodoListItem 컴포넌트로 변환하여 보여준다.
+
+  - 기능 구현
+
+    - todo 상태 이용 ✔️
+    - 항목 추가 기능 ✔️
+    - 지우기(remove) 기능 ✔️
+    - 수정 기능 ✔️
+
+  🍧 **완성!**
+
+  <img width="1256" alt="Screen Shot 2022-07-30 at 4 38 40 PM" src="https://user-images.githubusercontent.com/63195670/181880318-bb234e5e-0ce8-4951-bf29-f3cc6421e49d.png">
